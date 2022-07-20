@@ -207,6 +207,18 @@ body {
     color: #B9B9B9
 }
 
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fa-brands.fill {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
 /* footer end  */
 
 /* upcoming match styles */
@@ -215,6 +227,10 @@ body {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
 
+}
+
+.main-left-back a:active {
+    background-color: #DD0000;
 }
 
 .flag-div {
