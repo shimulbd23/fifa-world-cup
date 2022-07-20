@@ -74,9 +74,6 @@ body {
     grid-column-gap: 24px;
 }
 
-
-
-
 .main-left-back {
     background-color: black;
     padding: 30px 30px 15px;
@@ -150,4 +147,41 @@ body {
 .time-color {
     color: rgba(22, 22, 22, 0.7);
     ;
+}
+
+/* main section ends  */
+
+/* footer start  */
+.footer {
+    margin-top: 130px;
+    background-color: #161616;
+    padding: 130px;
+    color: white;
+
+}
+
+.footer h2 {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #B9B9B9
 }
