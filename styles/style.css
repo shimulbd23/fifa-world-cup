@@ -64,6 +64,11 @@ body {
 
 .header-image img {
     width: 100%;
+    transition: transform 1s ease-out;
+}
+
+.header-image img:hover {
+    transform: scale(1.10);
 }
 
 /* main section start  */
